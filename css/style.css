@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	font-family: Arial, helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.cabecalho {
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.sessao-chamada{
+	background-color: orange;
+	padding: 80px 20px;
+	border-radius: 20px;
+}
+
+.sessao-chamada h1{
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+.lugares {
+	text-align: center;
+}
+
+.lugares article {
+	margin: 30px 0;
+}
+
+.lugares article h2 {
+	font-size: 20px;
+	color: #686868;
+	margin-bottom: 25px;
+}
+
+.lugares .btn {
+	padding: 10px 15px;
+	background-color: #127d00;
+	color: #fff;
+	text-decoration: none;
+}
