@@ -11,23 +11,30 @@ body{
 
 .sessao-chamada{
 	background-color: orange;
-	padding: 80px 20px;
+	padding: 60px 20px;
 	border-radius: 20px;
 }
 
 .sessao-chamada h1{
-	font-size: 50px;
+	font-size: 34px;
 	color: #fff;
 	text-align: center;
 	margin: 0;
 }
 
 .lugares {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 15px;
 	text-align: center;
 }
 
 .lugares article {
 	margin: 30px 0;
+}
+
+.lugares article img {
+	max-width: 100%;
 }
 
 .lugares article h2 {
@@ -41,4 +48,27 @@ body{
 	background-color: #127d00;
 	color: #fff;
 	text-decoration: none;
+}
+
+/* Break point para se adaptar a telas maiores*/
+
+@media (min-width: 600px) {
+	.sessao-chamada {
+		padding: 80px 15px;
+	}
+
+	.sessao-chamada h1 {
+		font-size: 50px;
+	}
+
+	.lugares article {
+		float: left;
+		width: calc(50% - 5px);		
+	}
+
+	.lugares article:mth-child(even) {
+		margin-left: 10px;
+	}
+
+
 }
